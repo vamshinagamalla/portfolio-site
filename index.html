@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vamshi Nagamalla's Portfolio</title>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .portfolio-container {
+    max-width: 800px;
+    padding: 20px; /* Space inside the container */
+    margin: 20px; /* Space outside the container */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+  .greeting {
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3CDC84;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    position: relative;
+    z-index: 2;
+  }
+  .header {
+    font-size: 2em;
+    margin: 0.2em 0;
+  }
+  .sub-header {
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin: 0.5em 0;
+  }
+  .intro-text {
+    font-size: 1em;
+    font-weight: lighter;
+    margin-top: 2em;
+    text-align: justify; /* Centers text */
+    padding: 0 20px; /* Adds padding to the left and right */
+  }
+  .divider {
+    width: 50px;
+    height: 2px;
+    background-color: #3CDC84;
+    margin: 20px auto;
+  }
+  .footer {
+    font-style: italic;
+    font-size: .9em;
+  }
+
+  #android-logo-lottie {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if desired */
+    margin-bottom: -70px;
+  }
+
+  /* Dark mode styles */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #0B141A;
+      color: #fff;
+    }
+    .greeting, .divider {
+      border-bottom-color: #3CDC84;
+    }
+
+    .portfolio-container {
+      background: #1F2C33; /* Light background for contrast */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Dual-layer shadows for depth */
+    }
+
+    a:link {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    #curtain path {
+      fill: #1F2C33;
+    }
+
+    #right-eye path {
+      fill: #1F2C33;
+    }
+
+    #left-eye path {
+      fill: #1F2C33;
+    }
+  }
+
+  @media (prefers-color-scheme: lighter) {
+    body {
+      background-color: #E6EBE6;
+      color: #000;
+    }
+    .greeting, .divider {
+      border-bottom-color: #3CDC84
+    }
+
+    .portfolio-container {
+      background: #FFFFFF; /* Light background for contrast */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Dual-layer shadows for depth */
+    }
+
+    a:link {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: #53BCE9;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    #curtain path {
+      fill: #fff;
+    }
+
+    #right-eye path {
+      fill: #fff;
+    }
+
+    #left-eye path {
+      fill: #fff;
+    }
+  }
+
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .header {
+      font-size: 2em;
+    }
+    .sub-header {
+      font-size: 1.2em;
+    }
+    .intro-text {
+      font-size: 0.9em;
+    }
+  }
+  
+  /* Smaller devices */
+  @media (max-width: 400px) {
+    .header {
+      font-size: 1.5em;
+    }
+    .sub-header, .greeting {
+      font-size: 1em;
+    }
+    .intro-text {
+      font-size: 0.8em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div>
+  
+  <div class="portfolio-container">
+      <div id="android-logo-lottie"><lottie-player src="https://lottie.host/b0331e50-63d8-4725-93c5-05237aa674db/4a9IOJJ53Q.json" background="transparent" speed="1" style="width: 300px; height: 300px" autoplay disableShadowDOM ></lottie-player></div>
+      <div class="greeting">HELLO</div>
+      <div class="header">Vamshi Nagamalla</div>
+      <div class="sub-header">Lead Android Application Developer</div>
+      <div class="divider"></div>
+      <ul class="intro-text">
+        <li>With over 10 years of experience in Android application development, I am a highly skilled professional with a deep background in a variety of Android-related technologies.</li>
+        <li>Experienced and skilled professional with a profound background in various Android-related technologies, including extensive expertise in setting up robust application architectures using MVC, MVP, MVVM.</li>
+        <li>Well-versed in utilizing Android Jetpack components to enhance application development, along with proficiency in networking, logging, analytics, UI/UX, CI/CD, and unit testing.</li>
+      </ul>
+      <a href="https://github.com/vamshinagamalla" target="_blank">GitHub Profile</a> |
+      <a href="https://www.linkedin.com/in/vamshinagamalla/" target="_blank">LinkedIn Profile</a> |
+      <a href="Vamshi_Nagamalla.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+  </div>
+  
+  <p class="footer">I'll be adding more detailed information about my projects to this site soon.</p>
+
+</div>
+
+</body>
+</body>
+</html>
